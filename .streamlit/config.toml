@@ -1,0 +1,21 @@
+[theme]
+base = "light"
+primaryColor = "#1E5AA8"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F3F6FA"
+textColor = "#0B1F3A"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+# Never show tracebacks to end users; errors still go to the server log.
+# For local debugging: STREAMLIT_CLIENT_SHOW_ERROR_DETAILS=full streamlit run app.py
+showErrorDetails = "none"
+# Hide developer-only toolbar items (Rerun, Clear cache, Deploy) from viewers.
+toolbarMode = "viewer"
+
+[server]
+headless = true
+# Dealer CSV/Excel files are small; cap uploads well below the 200 MB default.
+maxUploadSize = 10

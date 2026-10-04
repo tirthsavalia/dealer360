@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.streamlit/secrets.toml
+.DS_Store
+# Local AI-assistant guidance; not part of the published project.
+AGENTS.md
