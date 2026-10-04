@@ -3,6 +3,22 @@
 > **From Dealer Data to Management Action.**
 > Dealer360 is an explainable dealer-intelligence platform that combines sales, inventory, payment, service and customer signals to identify emerging dealer risk and recommend prioritised management actions.
 
+## ▶ Start here
+
+| | |
+|---|---|
+| **Live app** (no sign-in) | **<https://dealer360.streamlit.app/>** |
+| **Demo video** (1:15) | **<https://youtu.be/g67xDEIv7co>** |
+
+[![Dealer360 demo video](https://img.youtube.com/vi/g67xDEIv7co/hqdefault.jpg)](https://youtu.be/g67xDEIv7co)
+
+- **Problem:** Regional managers have limited time and many dealers, and sales alone hide trouble. A dealer can hit target while stock ages and payments slip.
+- **Solution:** Each dealer gets a transparent 0–100 health score built from sales, growth, inventory, payments, service, complaints and market potential. The app explains *why* a dealer is flagged and recommends prioritised actions, each with an owner and a deadline.
+- **Business value:** Managers move from 100 dealers to specific next actions, and catch warning signs (hidden risk) before they show up in sales.
+- **Key limitation:** Weights and thresholds are prototype assumptions on synthetic data. They need calibrating against real historical dealer outcomes before live use.
+
+> If the app shows *"This app is asleep"*, click the wake-up button and wait about a minute. No account is needed.
+
 **All data is synthetic / demonstration data. All weights and thresholds are prototype assumptions — requires historical validation.**
 
 ## Problem
@@ -66,7 +82,7 @@ Python · Streamlit · Pandas · NumPy · Plotly · (optional) Anthropic Claude 
 ## How to run
 
 ```bash
-git clone <repo>
+git clone https://github.com/tirthsavalia/dealer360.git
 cd dealer360
 pip install -r requirements.txt
 streamlit run app.py
